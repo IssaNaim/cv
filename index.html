@@ -4,61 +4,66 @@
         <title>Issa Naim</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <table>
-            <tr>
-                <td>
-                    <img src="./profile.jpg" alt="profile" height="250">
-                </td>
-                <td><h1>Issa Naim</h1>
-                    <h4>Engineering Student</h4>
-                    <h2><strong>Lebanese University</strong></h2>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Skills:</h2>
-            <table>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Web Development</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>C++</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Game Development</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>BasketBall</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </table><br>
-
-            <h2>Work Experience:</h2>
-            <ul>
-                <li>2006-2008 Web Development</li>
-                <li>2008-2012 Android Development</li>
-            </ul>
-
-            <h3>Degrees:</h3>
-            <ul>
-                <a href="./degree.jpg"><li>LU Telecom Engineer</li></a>
-                <li>Computer Science Bachelor's Degree</li>
-            </ul>
-            <hr>
+        <nav>
+            <a href="./aboutme.html">About Me</a>
             <a href="./hobbies.html">Hobbies</a>
             <a href="./contact.html">Contact Me</a>
+        </nav>
+        <section class="hero-section">
+            <img src="./profile.jpg" alt="profile">
+            <div class="hero-content">
+                <h1>Issa Naim</h1>
+                <h2>Engineering Student</h2>
+                <h3>Lebanese University</h3>
+            </div>
+        </section>
+        <section class="skills">
+            <h1>Skills</h1>
+            <div class="container">
+                <div class="card">
+                    <h3>Web development</h3>
+                    <h5>⭐⭐⭐⭐⭐</h5>
+                </div>
+                <div class="card">
+                    <h3>Game development</h3>
+                    <h5>⭐⭐⭐</h5>
+                </div>
+                <div class="card">
+                    <h3>Android development</h3>
+                    <h5>⭐⭐⭐</h5>
+                </div>
+                <div class="card">
+                    <h3>C++</h3>
+                    <h5>⭐⭐⭐⭐⭐</h5>
+                </div>
+            </div>
+        </section>
+        <section class="workexp">
+            <h1>Work Experience</h1>
+            <div class="container">
+                <div class="card2">
+                    <h3>Game Developer</h3>
+                    <h5>2008-2012</h5>
+                </div>
+                <div class="card2">
+                    <h3>Web developer</h3>
+                    <h5>2012-2015</h5>
+                </div>
+                <div class="card2">
+                    <h3>Telecom Engineering</h3>
+                    <h5>2015-2018</h5>
+                </div>
+                <div class="card2">
+                    <h3>Electronics Engineering</h3>
+                    <h5>2018-2023</h5>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
